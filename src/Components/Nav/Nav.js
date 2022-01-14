@@ -4,17 +4,17 @@ import styled from 'styled-components';
 
 function Nav({className=""}) {
   return (
-    <DIV className={`navbar navbar-expand-sm bg-dark navbar-dark ${className} `}>
+    <DIV className={`navbar navbar-expand-sm bg-dark navbar-dark fixed-top ${className} `}>
          <div className="container Nav-wrapper">
                 <a href="#" className='navbar-brand'>Frondend Bootcamp</a>
 
                 <button 
-                    className='navbar-toggle'
+                    className='navbar-toggler'
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navmenu"
                 >    
-                
+
                     <span className="navbar-toggler-icon"></span>
                 </button>
 

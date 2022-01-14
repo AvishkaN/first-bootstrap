@@ -1,0 +1,6 @@
+body::before{
+    display: block;
+    content: "";
+    background-color: #212529; 
+    height: 60px; 
+}

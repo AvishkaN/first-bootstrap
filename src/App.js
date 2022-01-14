@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import HomePage from './Pages/Home/HomePage';
+import Footer from './Components/Footer/Footer';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 
@@ -23,6 +24,7 @@ function App() {
           </BrowserRouter>
 
 
+          <Footer></Footer>
 
 
 
